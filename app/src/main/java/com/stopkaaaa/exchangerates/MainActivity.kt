@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 import com.stopkaaaa.exchangerates.data.model.ExchangeRatesResponse
 import com.stopkaaaa.exchangerates.data.net.RetrofitClient
-import com.stopkaaaa.exchangerates.databinding.ActivityMainBinding
 import com.stopkaaaa.exchangerates.databinding.ExchangeLayoutBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -65,8 +64,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 val exchangeRates = response.body()
                 if (exchangeRates != null) {
                     activityBinding.currency1.text =
-                        (activityBinding.moneyEdit.text.toString().toDouble()
-                                * (exchangeRates.rates?.get(targetCurrency)
+                        (amount.toDouble() * (exchangeRates.rates?.get(targetCurrency)
                             ?: error("No exchange rate value"))).toString()
                 }
             }
