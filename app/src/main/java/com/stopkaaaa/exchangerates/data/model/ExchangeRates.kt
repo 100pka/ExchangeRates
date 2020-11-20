@@ -4,67 +4,67 @@ import com.google.gson.annotations.SerializedName
 
 data class ExchangeRates(
     @SerializedName("CAD")
-    var cad : Double,
+    var cad : Double? = null,
     @SerializedName("HKD")
-    var hkd : Double,
+    var hkd : Double? = null,
     @SerializedName("ISK")
-    var isk : Double,
+    var isk : Double? = null,
     @SerializedName("PHP")
-    var php : Double,
+    var php : Double? = null,
     @SerializedName("DKK")
-    var dkk : Double,
+    var dkk : Double? = null,
     @SerializedName("HUF")
-    var huf : Double,
+    var huf : Double? = null,
     @SerializedName("CZK")
-    var czk : Double,
+    var czk : Double? = null,
     @SerializedName("AUD")
-    var aud : Double,
+    var aud : Double? = null,
     @SerializedName("RON")
-    var ron : Double,
+    var ron : Double? = null,
     @SerializedName("SEK")
-    var sek : Double,
+    var sek : Double? = null,
     @SerializedName("IDR")
-    var tdr : Double,
+    var tdr : Double? = null,
     @SerializedName("INR")
-    var tnr : Double,
+    var tnr : Double? = null,
     @SerializedName("BRL")
-    var brl : Double,
+    var brl : Double? = null,
     @SerializedName("RUB")
-    var rub : Double,
+    var rub : Double? = null,
     @SerializedName("HRK")
-    var hrk : Double,
+    var hrk : Double? = null,
     @SerializedName("JPY")
-    var jpy : Double,
+    var jpy : Double? = null,
     @SerializedName("THB")
-    var thb : Double,
+    var thb : Double? = null,
     @SerializedName("CHF")
-    var chf : Double,
+    var chf : Double? = null,
     @SerializedName("SGD")
-    var sgd : Double,
+    var sgd : Double? = null,
     @SerializedName("PLN")
-    var pln : Double,
+    var pln : Double? = null,
     @SerializedName("BGN")
-    var bgn : Double,
+    var bgn : Double? = null,
     @SerializedName("TRY")
-    var turkish : Double,
+    var turkish : Double? = null,
     @SerializedName("CNY")
-    var cny : Double,
+    var cny : Double? = null,
     @SerializedName("NZD")
-    var nzd : Double,
+    var nzd : Double? = null,
     @SerializedName("NOK")
-    var nok : Double,
+    var nok : Double? = null,
     @SerializedName("ZAR")
-    var zar : Double,
+    var zar : Double? = null,
     @SerializedName("USD")
-    var usd : Double,
+    var usd : Double? = null,
     @SerializedName("MXN")
-    var mxn : Double,
+    var mxn : Double? = null,
     @SerializedName("ILS")
-    var ils : Double,
+    var ils : Double? = null,
     @SerializedName("GBP")
-    var gbp : Double,
+    var gbp : Double? = null,
     @SerializedName("KRW")
-    var krw : Double,
+    var krw : Double? = null,
     @SerializedName("MYR")
-    var myr : Double
+    var myr : Double? = null
 )

@@ -6,7 +6,7 @@ import java.util.*
 class ExchangeRatesResponse {
 
     @SerializedName("rates")
-    var rates: ExchangeRates? = null
+    var rates: Map<String, Double>? = null
 
     @SerializedName("date")
     var date: Date? = null
